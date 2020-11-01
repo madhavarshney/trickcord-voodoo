@@ -1,0 +1,19 @@
+{
+  "name": "Trick'cord Treater",
+  "description": "Voodoo magic on Discord's Halloween 2020 bot",
+  "version": "0.1.0",
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "*://discord.com/*",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' http://localhost:8000 'unsafe-eval'; object-src 'self'"
+}

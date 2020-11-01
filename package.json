@@ -1,0 +1,13 @@
+{
+  "name": "trickcord-voodoo",
+  "version": "0.1.0",
+  "description": "Voodoo magic on Discord's Halloween 2020 bot",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "faye": "^1.4.0"
+  }
+}
